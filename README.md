@@ -32,8 +32,9 @@ El código se divide en archivos independientes para cada etapa del análisis:
 Asegúrate de que el archivo `diabetes.csv` se encuentre en el mismo directorio que los scripts:
 
 ```bash
-python visualizacion.py
-python knn_diabetes.py
+python normalizar.py
+python pares.py
+python particion.py
 ```
 
 ## Detalles Técnicos
