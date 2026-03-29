@@ -62,6 +62,7 @@ muestra = pd.concat([sanos, enfermos])
 fig, axes = plt.subplots(5, 8, figsize=(18, 11))
 axes = axes.flatten()
 
+
 for i, (idx, row) in enumerate(muestra.iterrows()):
     label = "x" if row['Outcome'] == 0 else "x"
     dibujar_rostro(axes[i], row, f"{label}-{idx}")
