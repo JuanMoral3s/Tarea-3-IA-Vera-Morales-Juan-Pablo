@@ -1,7 +1,3 @@
-Aquí tienes una versión más sobria y directa para tu `README.md`:
-
----
-
 # Tarea 3: Clasificación KNN y Visualización de Datos
 
 Implementación manual del algoritmo K-Nearest Neighbors (KNN) para la clasificación de diabetes utilizando el dataset `diabetes.csv`. El proyecto incluye análisis estadístico, preprocesamiento de datos y visualización de características.
